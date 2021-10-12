@@ -3,7 +3,9 @@
 1. 地址栏输入：`chrome://extentions`
 2. 下载该文件并解压至Chrome浏览器拓展程序
 
-![安装](C:\Users\Administrator\Desktop\fe-plugins\file\安装.png)
+![安装](file/%E5%AE%89%E8%A3%85.png)
+
+
 
 ## manifest.json
 
@@ -39,7 +41,7 @@
 
 文档至此就要结束了，至于原因你懂的！ :joy:
 
-![发布](C:\Users\Administrator\Desktop\fe-plugins\file\发布.png)
+![发布](file/%E5%8F%91%E5%B8%83.png)
 
 ## reference
 
