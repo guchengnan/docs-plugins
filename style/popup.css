@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+body {
+  padding: 8px;
+}
+h1 {
+  color: #1d1f24;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: normal;
+}
+h1::after {
+  font-size: 10px;
+  content: '低廉的方式取悦自己';
+  margin-left: 4px;
+}
+ul {
+  width: 160px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+ul::-webkit-scrollbar {
+  display: none;
+}
+ul > li {
+  height: 30px;
+}
+ul > li > a {
+  color: #1d1f24;
+  padding: 0 6px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul > li > a figure {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+ul > li > a figure img {
+  width: 16px;
+  margin-right: 6px;
+}
+ul > li > a figure figcaption {
+  max-width: 120px;
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+ul > li > a::after {
+  content: '✈';
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+ul > li > a:hover {
+  color: #1d1f24;
+  background-color: #f1f2f4;
+}
+ul > li > a:hover::after {
+  opacity: 1;
+}
